@@ -8,7 +8,7 @@ def merge_sort(m):
     middle = len(m) // 2
     left = m[:middle]
     right = m[middle:]
-#recursive splitting of m
+
     left = merge_sort(left)
     right = merge_sort(right)
 
